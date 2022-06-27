@@ -1,0 +1,412 @@
+/* body,
+html {
+    padding: 0 !important;
+    margin: 0 !important;
+} */
+@font-face {
+    font-family: Nafees Nastaleeq;
+    src: url(./fonts/NafeesRegular/NafeesRegular.ttf);
+}
+
+@font-face {
+    font-family: Jameel Noori Nastaleeq;
+    src: url(./fonts/JameelNooriNastaleeqKasheeda/JameelNooriNastaleeqKasheeda.ttf);
+}
+
+.container {
+    max-width: 1120px;
+}
+
+.section1 {
+    background-image: url(./images/sevtion1bg.jpg);
+    /* height: 110vh; */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+}
+
+.section1 p {
+    hyphens: manual;
+    text-align: center;
+    border: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "Nafees Nastaleeq", sans-serif;
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.section1 .d-flex {
+    margin-top: 50px;
+    align-items: center;
+}
+
+.section1 .imageSection {
+    text-align: center;
+}
+
+.section1 .imageSection img {
+    width: 80%;
+}
+
+.section1 .formDiv {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-radius: 19px 19px 19px 19px;
+    background-color: #74b7d8;
+    padding: 30px 0;
+}
+
+.section1 .formDiv h2 {
+    border: 0;
+    font-style: inherit;
+    outline: 0;
+    vertical-align: baseline;
+    clear: both;
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+    text-align: center;
+    color: #ffffff;
+    font-family: Jameel Noori Nastaleeq;
+    font-size: 36px;
+    width: 100%;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+.section1 .formDiv h6 {
+    border: 0;
+    font-style: inherit;
+    outline: 0;
+    vertical-align: baseline;
+    clear: both;
+    /* font-size: 1; */
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: Jameel Noori Nastaleeq;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 10px;
+    word-spacing: 5px;
+}
+.section1 .formDiv .inputDiv {
+    padding: 0 35px;
+    margin-top: 30px;
+}
+
+.section1 .formDiv .inputDiv input {
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1;
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    border: 0 none;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0;
+    width: 100%;
+    padding: 0.75em;
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    height: 55px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.section1 .formDiv button {
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-appearance: button;
+    cursor: pointer;
+    text-shadow: none;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0;
+    border: medium none;
+    font-size: 14px;
+    line-height: 54px;
+    padding: 0 29px;
+    text-transform: uppercase;
+    width: 100%;
+    transition: 0.5s;
+    margin: 0;
+    height: 55px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #477e93;
+}
+
+.section2 {
+    padding: 30px 0;
+}
+
+.section2 h2 {
+    line-height: 1;
+    text-align: center;
+    border: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "Nafees Nastaleeq", sans-serif;
+    color: #000000;
+    font-size: 42px;
+}
+
+.section2 .divider {
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.section2 .faidaMain .d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section2 .faidaMain .faida {
+    hyphens: manual;
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-border-radius 0.3s,
+        -webkit-box-shadow 0.3s;
+    margin: 0;
+    padding: 15px 10px;
+    background-color: #a5d5e940;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.section2 .faidaMain .faida img {
+    width: 20%;
+}
+
+.section2 .faidaMain .faida h3 {
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.section2 .faidaMain .centerMan {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.section4 {
+    background-image: url(./images/sevtion1bg.jpg);
+    /* height: 110vh; */
+    background-size: cover;
+    background-position: center;
+    padding: 30px 10px;
+}
+
+.section4 h2 {
+    line-height: 1;
+    text-align: center;
+    border: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "Nafees Nastaleeq", sans-serif;
+    color: #fff;
+    font-size: 42px;
+}
+
+.section4 .divider {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.section4 .reviewMain {
+    margin-top: 50px;
+}
+
+.section4 .review {
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 18px 18px 18px 18px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 35px 50px 40px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    width: 90%;
+}
+@media screen and (max-width: 768px) {
+    .section4 .review {
+        width: 100%;
+    }
+}
+
+.section4 .reviewDiv1 {
+    height: calc(100% - 20px);
+}
+
+.section4 .review p {
+    text-align: center;
+    border: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "Nafees Nastaleeq", sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+.section4 .review h4 {
+    text-align: center;
+    line-height: 1;
+    color: #000;
+    border: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: Jameel Noori Nastaleeq;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.section4 .review .iconDiv {
+    margin-top: 30px;
+}
+.section4 .review .iconDiv svg {
+    margin-right: 5px;
+    fill: #f0ad4e;
+}
+
+@media screen and (max-width: 768px) {
+    .section3 .d-flex {
+        flex-direction: column-reverse;
+    }
+    .section3 .d-flex img {
+        margin-bottom: 10px;
+    }
+}
+
+.alertDiv{
+    color: red;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.thankyouMain{
+    height: 100vh;
+    margin: 0
+}
+.thankyouMain h1{
+    margin-bottom: 10px;
+    font-family: "Nafees Nastaleeq", sans-serif;
+}
+.thankyouMain .lead{
+    margin-top: 10px;
+    font-family: "Nafees Nastaleeq", sans-serif;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+
+.thankyouMain .lead .btn-primary{
+    background-color: #06d755;
+    font-size: 18px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.faidaPart{
+    text-align: right;
+}
+
+.faidaPart h3{
+    font-family: "Nafees Nastaleeq", sans-serif;
+    margin-bottom: 20px;
+}
+
+.faidaPart ul li{
+    display: inline-block;
+    background-color: #e8f4f9;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Nafees Nastaleeq", sans-serif;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+}
